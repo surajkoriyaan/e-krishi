@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+body 
+{
+	margin:0;
+	padding:0;
+	width:100%;
+	background:url(../images/masala5.jpg);
+	background-size:cover;
+}
+
+.bk
+{
+	background:url(../images/2page-img4.JPG);
+}
+
+#dv
+{
+	position:absolute;
+	top:2%;
+	height:19%;
+	bottom:79%;
+	left:15%;
+	width:15%;
+	right:70%;
+	text-align:center;
+	border-width:20px;
+	border-color:#609;
+	border-style:solid;
+	background:#FFF;
+	border-bottom-left-radius:30px;
+	border-top-right-radius:30px;
+	box-shadow:2px 4px 8px 3px #000000;
+}
+#dv_opt
+{
+	position:absolute;
+	top:1%;
+	height:12%;
+	bottom:87%;
+	left:2%;
+	width:13%;
+	right:85%;
+	text-align:center;
+	border-width:6px;
+	border-color:#339;
+	border-style:solid;
+	background:#FFF;
+	border-bottom-left-radius:20px;
+	border-top-right-radius:20px;
+	box-shadow:2px 4px 8px 3px #FFFF00;
+}
+#div_mid
+{
+	position:absolute;
+	top:20%;
+	padding-top:5%;
+	height:55%;
+	bottom:20%;
+	left:20%;
+	padding-left:5%;
+	width:58%;
+	right:17%;
+	background-image:url(../images/bckg.jpg);
+	background-size:cover;
+	border-width:15px;
+	border-color:#609;
+	border-style:solid;
+	border-bottom-right-radius:30px;
+	border-top-left-radius:30px;
+	box-shadow:2px 4px 8px 3px #000000;
+}
+.tble
+{
+	background:none;	
+	height:200px;
+	width:800px;
+	color:#FF0;
+	text-shadow:2px 3px 7px #000099;
+	font-size:20px;
+	font-weight:600;
+	font-family:"Times New Roman", Times, serif;
+}
+.emsg
+        {
+			
+			color:#F00;
+			font-size:16px;
+		}
+.btn
+{
+	font-size:15px;
+	color:#FFF;
+	text-decoration:none;
+	border-color:#CF6;
+	height:40px;
+	width:130px;
+	border-radius:5px;
+	box-shadow:1px 1px 2px 1px #FFFFFF;
+	background:#90C;
+}
+.btn:hover
+{
+	font-size:18px;
+}
+
+
+.ac_btn
+{
+	font-size:8px;
+	color:#FFF;
+	text-decoration:none;
+	height:25px;
+	width:200px;
+	border-radius:3px;
+	box-shadow:1px 1px 2px 1px #000000;
+	background:#F30;
+}
+.ac_btn:hover
+{
+	font-size:10px;
+	text-decoration:underline;
+	background:#F66;
+}
+
+.inpt
+{
+	padding-left:3px;
+	background:#CFF;
+	border-top-right-radius:6px;
+	border-bottom-left-radius:6px;
+	border-width:3px;
+	border-color:#60F;
+	border-style:solid;
+}
+#dv_ac
+{
+	position:absolute;
+	top:4%;
+	height:91%;
+	bottom:5%;
+	left:15%;
+	width:70%;
+	right:15%;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#600;
+	text-align:center;
+	border-width:10px;
+	border-color:#339;
+	border-style:solid;
+	background:#FFFFFF;
+	border-radius:30px;
+	box-shadow:2px 4px 8px 3px #FFFFFF;
+}
+.ac_inpts 
+{
+	padding-left:3px;
+	background:#CFF;
+	width:320px;
+	border-radius:6px;
+	border-width:1px;
+	border-color:#330;
+	border-style:solid;
+}
+
+#dv_btn
+{
+	position:absolute;
+	top:90%;
+	
+	height:10%;
+	bottom:0%;
+	left:0%;
+	width:100%;
+	right:0%;
+	background:none;
+}
+#dv_btn input
+{
+	font-size:15px;
+	color:#FFF;
+	text-decoration:none;
+	border-color:#CF6;
+	height:30px;
+	width:210px;
+	border-radius:5px;
+	box-shadow:1px 1px 2px 1px #000000;
+	background:#903;
+}
+#dv_btn input:hover
+{
+	background:#C33;
+	font-size:17px;
+	text-decoration:underline;
+}
+.bgclr
+{
+	background:#400020;
+	
+}
+.div_all
+{
+	position:absolute;
+	top:5%;
+	height:90%;
+	bottom:5%;
+	left:15%;
+	width:70%;
+	right:15%;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#600;
+	text-align:center;
+	background:none;
+}
+.div_inner
+{
+	position:absolute;
+	top:5%;
+	height:90%;
+	bottom:5%;
+	left:15%;
+	width:70%;
+	right:15%;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#600;
+	text-align:center;
+	background:#9C9;
+	border-width:13px;
+	border-color:#000;
+	border-top-style:dotted;
+}
+#div_infos
+{
+	position:absolute;
+	top:180px;
+	height:400px;;
+	left:10%;
+	width:80%;
+	right:10%;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	text-align:center;
+	background:url(../images/garlic.png);
+	background-size:cover;
+	border-style:solid;
+	border-width:10px;
+	border-color:#006;
+}
+.div_ac_info
+{
+	position:absolute;
+	padding:1% 1% 1% 1%;
+	top:54%;
+	height:40%;
+	bottom:4%;
+	left:60%;
+	width:33%;
+	right:5%;
+	color:#F30;
+	font-family:"Courier New", Courier, monospace;
+	font-size:16px;
+	background:#FF9;
+	border-color:#FF0;
+	border-style:solid;
+	box-shadow:2px 2px 2px 2px #333333;
+	display:none;
+}
+.inptbtn
+{
+	background:#039;
+	color:#FFF;
+	width:150px;
+	height:20px;
+	border:none;
+}
+.inptbtn:hover
+{
+	font-weight:bold;
+	background:#009;
+}
+
+a
+{
+	font-size:20px;
+	color:#F30;
+	text-decoration:none;
+}
+a:hover
+{
+	color:#C03;
+}

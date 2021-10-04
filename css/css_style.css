@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+body 
+{
+	margin:0;
+	padding:0;
+	width:100%;
+	background:url(../images/3d_img.jpg);
+	background-size:cover;
+}
+
+.div_lgn
+{
+	position:absolute;
+	top:15%;
+	height:70%;
+	bottom:15%;
+	left:15%;
+	width:70%;
+	right:15%;
+	font-size:20px;
+	font-family:"Courier New", Courier, monospace;
+	color:#FF0;
+	text-shadow:7px 4px 6px #000000;
+	text-align:center;
+	/*background:url(../images/3d_img.jpg);
+	background-size:cover;*/
+	background:#69C;
+	border-radius:25px;
+	box-shadow:6px 2px 4px 3px #000000;	
+}
+
+.div_lgn table tr td .btn
+{
+	font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:48px;
+	height:180px;
+	color:#FC0;
+	font-weight:800;
+	text-align:center;
+	text-shadow:2px 4px 8px #000000;
+	background:#63F;
+	border-style:none;
+}
+.div_lgn table tr td .btn:hover
+{
+	color:#F90;
+	background:#60C;
+	height:150px;
+}
+.div_top
+{
+	position:absolute;
+	top:0%;
+	height:10%;
+	bottom:90%;
+	left:0%;
+	width:100%;
+	right:0%;	
+	background:#06F;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;	
+}
+.div_bot
+{
+	position:absolute;
+	top:90%;
+	height:10%;
+	bottom:0%;
+	left:0%;
+	width:100%;
+	right:0%;	
+	background:#06F;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;	
+}
+

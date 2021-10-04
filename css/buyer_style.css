@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+		
+		#div_bk
+		{
+			position:absolute;
+			top:0px;
+			height:699px;
+			bottom:0px;
+			left:0px;
+			width:1280px;
+			right:0px;
+			background:#999999;
+		}
+		
+		#div_mid
+		{
+			position:absolute;
+			top:150px;
+			height:439px;
+			bottom:110px;
+			left:300px;
+			width:660px;
+			right:320px;
+			color:#F30;
+			font-family:"Courier New", Courier, monospace;
+			font-size:16px;
+			background:#FF9;
+			border-color:#FF6;
+			border-style:solid;
+			border-width:20px;
+			border-radius:10px;
+			box-shadow:2px 2px 2px 2px #333333;
+		}
+		#div_mid table
+		{
+			color:#F30;
+			font-size:12px;
+		}
+		#div_mid table input
+		{
+			width:280px;
+			border-radius:6px;
+			border-color:#900;
+			padding-left:10px;
+		}
+		.btn
+		{
+			background:#F9F;
+			color:#009;
+			font-weight:bold;
+			font-family:"Courier New", Courier, monospace;
+		}
+		.btn:hover
+		{
+			background:#F63;
+			color:#FF0;
+		}
+		
+		h1
+		{
+			font-weight:bold;
+			font-family:"Courier New", Courier, monospace;
+			text-align:center;
+		}
+		
+		
+		
+
